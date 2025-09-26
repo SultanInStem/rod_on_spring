@@ -1,2 +1,4 @@
+from canvas import Canvas
 if __name__ == "__main__":
-    print("Hello, World!")
+    my_canvas = Canvas()
+    my_canvas.run()
