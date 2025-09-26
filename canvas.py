@@ -2,7 +2,7 @@ import pygame
 from globals import SCREEN_SIZE, FPS
 
 class Canvas: 
-    def __init__(self, width, height):
+    def __init__(self):
         pygame.init()
         pygame.display.set_caption("Canvas")
         self.screen = pygame.display.set_mode(SCREEN_SIZE)
